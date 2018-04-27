@@ -7,4 +7,4 @@ before_install:
   - pip install --user cpp-coveralls
   
 after_success:
-  - coveralls --includ "balanced.cpp" --gcov-options '\-lp'
+  - coveralls --include "balanced.cpp" --gcov-options '\-lp'
